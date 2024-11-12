@@ -19,23 +19,23 @@
             android:textSize="20sp" />
 
         <Spinner
-            android:id="@+id/id_spinner2"
+            android:id="@+id/id_spinner"
             android:layout_width="match_parent"
             android:layout_height="46dp" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:text="Peso"
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/txtPeso2"
+            android:id="@+id/txtPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <TextView
             android:id="@+id/textView6"
@@ -45,16 +45,17 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/txtEstatura2"
+            android:id="@+id/txtEstatura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="calcularIMC"
             android:text="Calcular IMC" />
 
         <TextView
@@ -66,7 +67,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/txtIMC2"
+            android:id="@+id/txtIMC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -74,10 +75,9 @@
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/lbl"
             android:layout_width="match_parent"
-            android:layout_height="344dp"
-            android:text="TextView" />
+            android:layout_height="344dp" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
